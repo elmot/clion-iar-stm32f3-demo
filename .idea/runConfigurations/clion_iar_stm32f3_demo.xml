@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="clion_iar_stm32f3_demo" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clion-iar-stm32f3-demo" TARGET_NAME="clion_iar_stm32f3_demo" CONFIG_NAME="Debug-MinGW IAR ARM" RUN_TARGET_PROJECT_NAME="clion-iar-stm32f3-demo" RUN_TARGET_NAME="clion_iar_stm32f3_demo">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="C:\work\clion-iar-stm32f3-demo\stm32f3discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

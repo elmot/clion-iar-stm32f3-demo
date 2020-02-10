@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -109,7 +109,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    printf("Hello, World!\n");
+    HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+    HAL_Delay(400);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
